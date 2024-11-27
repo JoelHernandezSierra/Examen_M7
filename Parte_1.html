@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8"> <!-- Defineix el joc de caràcters com UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Assegura que la pàgina es veu bé en dispositius mòbils -->
+    <title>Tauler de Tasques</title> <!-- Títol de la pàgina -->
+    <link rel="stylesheet" href="Parte_1.css"> <!-- Enllaça el fitxer CSS extern -->
+</head>
+<body>
+    <div class="tauler"> <!-- Contenidor principal del tauler de tasques -->
+        <div class="pendents"> <!-- Secció per a les tasques pendents -->
+            <h2>Pendents</h2> <!-- Títol de la secció de tasques pendents -->
+            <ul id="pendents-list"> <!-- Llista de tasques pendents -->
+                <li class="tasca">Tasca 1</li> <!-- Element de la llista de tasques pendents -->
+                <li class="tasca">Tasca 2</li>
+                <li class="tasca">Tasca 3</li>
+            </ul>
+        </div>
+        <div class="fetes"> <!-- Secció per a les tasques completades -->
+            <h2>Fetes</h2> <!-- Títol de la secció de tasques completades -->
+            <ul id="fetes-list"> <!-- Llista de tasques completades -->
+                <!-- Les tasques completades es mouran aquí -->
+            </ul>
+        </div>
+    </div>
+    <script src="Parte_1.js"></script> <!-- Enllaça el fitxer JavaScript extern -->
+</body>
+</html>

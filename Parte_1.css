@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif; /* Defineix el tipus de lletra */
+    background-color: #f4f4f4; /* Color de fons de la pàgina */
+    display: flex; /* Utilitza flexbox per alinear els elements */
+    justify-content: center; /* Centra els elements horitzontalment */
+    align-items: center; /* Centra els elements verticalment */
+    height: 100vh; /* Alçada de la pàgina igual a la de la finestra del navegador */
+    margin: 0; /* Elimina els marges per defecte */
+}
+
+.tauler {
+    display: flex; /* Utilitza flexbox per alinear les seccions */
+    gap: 20px; /* Espai entre les seccions */
+}
+
+.pendents, .fetes {
+    background-color: #fff; /* Color de fons blanc per a les seccions */
+    padding: 20px; /* Espai interior de les seccions */
+    border-radius: 8px; /* Cantonades arrodonides */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombra suau per a les seccions */
+    width: 200px; /* Amplada fixa de les seccions */
+}
+
+h2 {
+    text-align: center; /* Centra el text dels títols */
+}
+
+ul {
+    list-style-type: none; /* Elimina els punts de la llista */
+    padding: 0; /* Elimina el padding per defecte */
+}
+
+.tasca {
+    background-color: #e0e0e0; /* Color de fons de les tasques */
+    margin: 10px 0; /* Espai entre les tasques */
+    padding: 10px; /* Espai interior de les tasques */
+    border-radius: 4px; /* Cantonades arrodonides de les tasques */
+    cursor: pointer; /* Canvia el cursor a una mà quan es passa per sobre */
+    transition: background-color 0.3s; /* Transició suau per al canvi de color de fons */
+}
+
+.tasca:hover {
+    background-color: #d0d0d0; /* Canvia el color de fons quan es passa per sobre */
+}
